@@ -116,4 +116,4 @@ The summarization process was divided into two sections:
 - Merged predictions with the rest of the dataset (including movies excluded from training).
 - Reorganized the final dataframe and exported the output.
 
-![Certificate Distribution](images/movie-5.jpg)
+![Certificate Distribution](images/confusion.jpg)
