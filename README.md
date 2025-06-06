@@ -10,6 +10,8 @@ I used the four methods below to build a standardized movie search engine that a
 3.   Text Summarization
 4.   Document Clustering 
 
+![Certificate Distribution](images/movie-1.jpg)
+
 ## ✨ Why I Built This
 
 As I explored international films, I noticed two things:
@@ -27,6 +29,7 @@ This project began as an NLP assignment, but I expanded it to evaluate how movie
 - Reclassify movies into modern rating categories (G, PG, PG-13, R) using ML models.
 - Surface inconsistencies in content standards across regions and decades.
 
+#####
 
 ##### 🧹 Data Wrangling & NLP Pipeline
 
