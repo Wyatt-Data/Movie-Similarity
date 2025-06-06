@@ -21,6 +21,8 @@ As I explored international films, I noticed two things:
 
 This project began as an NLP assignment, but I expanded it to evaluate how movie content ratings vary by culture and era, and to build a tool that recommends similar films based on both genre and plot. It is the most technically comprehensive project I’ve done to date.
 
+![Certificate Distribution](images/movie-example.jpg)
+
 ## 🎯 Project Objectives
 
 - Recommend movies based on content and genre similarity.
@@ -28,6 +30,9 @@ This project began as an NLP assignment, but I expanded it to evaluate how movie
 - Predict content maturity levels (violence, nudity, profanity) using summary text.
 - Reclassify movies into modern rating categories (G, PG, PG-13, R) using ML models.
 - Surface inconsistencies in content standards across regions and decades.
+
+
+![Certificate Distribution](images/predictor.jpg)
 
 #####
 
@@ -42,7 +47,7 @@ This project began as an NLP assignment, but I expanded it to evaluate how movie
   - Used synopsis as the primary source.
   - If synopsis was missing, fallback to plot description to avoid nulls.
 
-**NLP Preprocessing:**
+🧹 **NLP Preprocessing:**
 - Applied regex cleaning, case folding, and stripping.
 - Tokenized at the word level.
 - Removed stopwords and lemmatized text.
@@ -97,6 +102,8 @@ The summarization process was divided into two sections:
   - Poor accuracy on **Profanity**, moderate on **Alcohol**.
 - Applied the trained model to a separate `foreign_movies` dataset and appended the predicted outputs.
 
+![Certificate Distribution](images/movie-4e.jpg)
+
 
 ##### 📈 Document Clustering – Part 2: Predicting Certificate Ratings
 
@@ -109,4 +116,4 @@ The summarization process was divided into two sections:
 - Merged predictions with the rest of the dataset (including movies excluded from training).
 - Reorganized the final dataframe and exported the output.
 
-
+![Certificate Distribution](images/movie-5.jpg)
